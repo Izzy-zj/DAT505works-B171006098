@@ -26,7 +26,7 @@ function geometry() {
 
 
 var geometry2 = new THREE.SphereGeometry(50,50,50);
-var texture2 = new THREE.TextureLoader().load('./js/2.jpg');
+var texture2 = new THREE.TextureLoader().load('./js/2.png');
 var material2 = new THREE.MeshBasicMaterial({
   map:texture2,
   })
